@@ -27,52 +27,32 @@
     z-index: 100;
     position: fixed; 
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    justify-content: space-around;
+    height: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
-.image-container{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.nav{
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+.header img{
+    width: 100px;
+    height: 100px;
 }
 
 .nav a{
     text-decoration: none;
     color: var(--negro);
-    
-}
-
-.figure, .icons{
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icons{
-    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 500;
 }
 
 .icons i{
-    margin-right: 15px;
+    margin-left: 5px;
+    color: var(--morado);
+    font-weight: 800;
 }
 
 body{
-    background-color: lightblue;
+    background-color: black;
 }
-
 
