@@ -1,0 +1,85 @@
+@import url("./default.css");
+
+/*Primera sección*/
+.container-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: var(--morado-opacidad);
+    z-index: 1;
+}
+
+.container-one video{
+    float: left;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: none;
+    z-index: -1;
+}
+
+.container-one figure{
+    float: right;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-one figure img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 420px;
+}
+
+.background{
+    position: absolute;
+    bottom: 20px;
+    right: 8%;
+    background-color: var(--gris);
+    width: 250px;
+    height: 450px;
+    z-index: -1;
+    border-radius: 20px;
+    border: none;
+}
+
+.container-one article{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 40%;
+    font-size: 1.5em;
+    color: var(--blanco);
+}
+
+.container-one article h1{
+    font-size: 3em;
+    margin-bottom: 8px;
+}
+
+.container-one article p{
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color: var(--blanco);
+    border: none;
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: inset 3px 4px 10px var(--gris-sombra);
+    cursor: pointer;
+    color: var(--morado);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.ancle{
+    text-decoration: none;
+    position: absolute;
+    z-index: 5;
+    
+}

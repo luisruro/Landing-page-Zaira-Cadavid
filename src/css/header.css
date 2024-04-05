@@ -1,26 +1,4 @@
-/*Librería de bootstrap para iconos*/
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
-/*Fuente*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-:root{
-    --negro: rgb(0, 0, 0);
-    --morado: rgb(116, 66, 109);
-    --blanco: rgb(255, 255, 255);
-    --gris: rgb(150, 150, 150);
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
-
-body{
-    margin-top: 63px;
-}
+@import url("./default.css");
 
 .header{
     background-color: var(--blanco);
@@ -65,45 +43,3 @@ body{
     color: var(--morado);
     font-weight: 800;
 }
-
-.container-one{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 400px;
-}
-
-.container-one video{
-    float: left;
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    border: none;
-}
-
-.container-one figure{
-    float: right;
-    width: 100%;
-    height: 400px;
-    position: relative;
-}
-
-.container-one figure img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 350px;
-}
-
-.background{
-    position: absolute;
-    bottom: 20px;
-    right: 8%;
-    background-color: var(--gris);
-    width: 250px;
-    height: 350px;
-    z-index: -1;
-    border-radius: 20px;
-    border: none;
-}
-
