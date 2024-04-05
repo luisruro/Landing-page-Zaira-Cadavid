@@ -1,6 +1,6 @@
 @import url("./default.css");
 
-/*Primera sección*/
+/*Section one*/
 .container-one{
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@
 .container-one article{
     position: absolute;
     width: 800px;
-    height: 400px;
+    height: 460px;
     left: 40%;
     font-size: 1.5em;
     color: var(--blanco);
@@ -85,5 +85,19 @@
 .anchor{
     text-decoration: none;
     position: absolute;
-    z-index: 5;
+    z-index: 1;
+}
+
+.container-two{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 57%;
+    left: 28%;
+    background-color: var(--gris);
+    width: 900px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
 }
